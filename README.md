@@ -50,16 +50,16 @@ You can:
 
 ---
 
-### 4. Set up your environment
 
-Open VS Code. In the terminal (View > Terminal), run:
-
----
-
-### 5. Run the Code
+### 4. Run the Code
 python clean_and_visualize.py
 python train_model.py
 
+---
+
+### 5. Set up your environment
+
+Open VS Code. In the terminal (View > Terminal), run:
 
 ```bash
 pip install pandas numpy seaborn matplotlib scikit-learn xgboost
