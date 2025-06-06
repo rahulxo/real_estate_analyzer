@@ -1,29 +1,29 @@
 # Real Estate Price Predictor 🏠
 
-This is a beginner-friendly data science project where I built a machine learning model to predict housing prices. I used Python to clean the data, explore trends, and train a regression model that gives a price estimate based on home features.
+This is a beginner-friendly data science project where I built a machine learning model to predict housing prices. I used Python to clean the data, explore trends, and train a regression model that estimates home value based on key features.
 
 ## What it does
-- Loads a real estate dataset (from Kaggle)
-- Cleans up missing or inconsistent data
-- Visualizes key patterns (like price vs. living area)
-- Trains a model to predict house prices using XGBoost
-- Shows which features matter most when estimating value
+- Loads real estate data from Kaggle
+- Cleans and preprocesses the dataset
+- Visualizes trends like price vs. square footage
+- Trains a regression model using XGBoost
+- Highlights which home features impact price the most
 
 ## Why I made this
-I'm a finance major learning data science, and I wanted a hands-on project that connects both. Real estate is something I’m interested in, and this helped me understand how to apply Python and machine learning to real-world financial data.
+I'm a finance major learning data science, and I wanted to build something that connects both. Real estate is something I’m interested in, and this project helped me learn how data science can be used in pricing and valuation.
 
 ## Tools & Libraries
 - Python (pandas, numpy)
-- Seaborn & Matplotlib (data viz)
-- scikit-learn & XGBoost (machine learning)
+- Seaborn & Matplotlib (for visualizing data)
+- scikit-learn & XGBoost (for machine learning)
 - VS Code
 - Git & GitHub
 
-## How to run it
-1. Download the dataset from Kaggle (House Prices: Advanced Regression Techniques)
-2. Place the CSV in the `data/` folder
-3. Run these scripts from your terminal:
+## How to run the project
 
-```bash
-python clean_and_visualize.py
-python train_model.py
+1. **Download the dataset**  
+   Go to the [House Prices - Advanced Regression Techniques Kaggle page](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) and download the file called `train.csv`.
+
+2. **Place the file in the right folder**  
+   Inside your project folder, create a folder named `data` (if it doesn't already exist), and move the `train.csv` file into it.
+
