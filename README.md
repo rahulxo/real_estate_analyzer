@@ -2,28 +2,57 @@
 
 This is a beginner-friendly data science project where I built a machine learning model to predict housing prices. I used Python to clean the data, explore trends, and train a regression model that estimates home value based on key features.
 
-## What it does
-- Loads real estate data from Kaggle
-- Cleans and preprocesses the dataset
-- Visualizes trends like price vs. square footage
-- Trains a regression model using XGBoost
-- Highlights which home features impact price the most
+## 🔍 What it does
+- Loads real estate data from a Kaggle dataset
+- Cleans and preprocesses the data
+- Visualizes housing trends like price vs. square footage
+- Trains a machine learning model using XGBoost
+- Shows which home features most impact sale price
 
-## Why I made this
-I'm a finance major learning data science, and I wanted to build something that connects both. Real estate is something I’m interested in, and this project helped me learn how data science can be used in pricing and valuation.
+---
 
-## Tools & Libraries
-- Python (pandas, numpy)
-- Seaborn & Matplotlib (for visualizing data)
-- scikit-learn & XGBoost (for machine learning)
-- VS Code
+## 📌 Why I made this
+I'm a finance major learning data science, and I wanted to build something that connects both. Real estate is something I’m interested in, and this project helped me understand how to apply Python and machine learning to real-world financial data.
+
+---
+
+## 🛠️ Tools & Libraries
+- Python
+- pandas & numpy (for data wrangling)
+- seaborn & matplotlib (for data visualization)
+- scikit-learn & xgboost (for machine learning)
+- Visual Studio Code
 - Git & GitHub
 
-## How to run the project
+---
 
-1. **Download the dataset**  
-   Go to the [House Prices - Advanced Regression Techniques Kaggle page](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) and download the file called `train.csv`.
+## 🚀 How to Run This Project (Step-by-Step for Beginners)
 
-2. **Place the file in the right folder**  
-   Inside your project folder, create a folder named `data` (if it doesn't already exist), and move the `train.csv` file into it.
+### 1. Install Python
+Make sure Python is installed on your computer. Download it from:  
+👉 https://www.python.org/downloads/
 
+When installing, check the box that says **“Add Python to PATH.”**
+
+---
+
+### 2. Install VS Code
+Download and install Visual Studio Code:  
+👉 https://code.visualstudio.com/
+
+---
+
+### 3. Download this project
+You can:
+- Click the green **"Code"** button on this repo
+- Select **"Download ZIP"**
+- Unzip the folder and open it in VS Code
+
+---
+
+### 4. Set up your environment
+
+Open VS Code. In the terminal (View > Terminal), run:
+
+```bash
+pip install pandas numpy seaborn matplotlib scikit-learn xgboost
