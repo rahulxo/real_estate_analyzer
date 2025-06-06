@@ -54,5 +54,14 @@ You can:
 
 Open VS Code. In the terminal (View > Terminal), run:
 
+---
+
+### 5. Run the Code
+python clean_and_visualize.py
+python train_model.py
+
+
 ```bash
 pip install pandas numpy seaborn matplotlib scikit-learn xgboost
+
+
